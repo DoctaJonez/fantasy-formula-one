@@ -1,0 +1,61 @@
+DoctaJonez.FantasyFormulaOne.Api - web api
+DoctaJonez.FantasyFormulaOne.Data - DAL
+Dtos
+
+- Driver
+ Name
+ Car number
+ Team
+ Price
+
+- Team
+ Name
+ Price
+
+- Fantasy Team
+ Driver 1
+ Driver 2
+ Car 1
+ Car 2
+ Name
+ Manager
+ Results
+
+- Fantasy Team Result
+ Fantasy Team
+ Race
+ Driver 1 points
+ Driver 2 points
+ Car 1 points
+ Car 2 points
+
+- Race
+ Name
+ Round
+ Date
+ Qualifying results
+ Race results
+
+- Qualifying result
+ Driver
+ Team
+ Position
+ Q1 time
+ Q2 time
+ Q3 time
+ Laps
+
+- Race result
+ Driver
+ Team
+ Position
+ Time
+ Laps
+ Points
+
+Repositories
+ - EntityFramework
+ - FileSystem
+ - MongoDb
+Dtos
+DoctaJonez.FantasyFormulaOne.Web - mvc frontend
